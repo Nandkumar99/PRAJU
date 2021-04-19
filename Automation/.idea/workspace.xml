@@ -116,10 +116,12 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules/Automation.main.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules/Automation.test.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Features/Login.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Stepdefination/Login.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium-Maven-Template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
