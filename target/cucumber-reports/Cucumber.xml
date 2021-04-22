@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="121.970731">
+<testcase classname="Clone job" name="Clone functionality" time="42.5717">
+<system-out><![CDATA[Given clone job.............................................................passed
+And after clone close the browser...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="VeryFyl Login" name="VeryFyl Login Functionality" time="3.942621">
+<system-out><![CDATA[When I open VeryFyl Login page..............................................passed
+Then I Open VeryFyl Home page...............................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Post the job" name="Post job functionality" time="44.089464">
+<system-out><![CDATA[Given post new job..........................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Veryfyl Registration" name="Veryfyl Registration Functionality" time="31.366946">
+<system-out><![CDATA[When I open veryfyl registration page.......................................passed
+Then I complate veryfyl Registration........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
