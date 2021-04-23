@@ -12,26 +12,25 @@ import static Base.BaseStep.Pather.xPath;
 public class CloneJob {
 
     BaseStep step= new BaseStep();
+    VeryFylLogin login =new VeryFylLogin();
 
     @Given("clone job")
     public void clone_job() throws InterruptedException {
         step.BaseStep();
 
         step.geturl();
+//        login.i_open_very_fyl_home_page();
 
         step.findElementClick("//*[@id=\"root\"]/main/div/div/div[2]/div/button[2]/span[2]", xPath);
-
         step.findElement("workEmail", name, "2").sendKeys("nandkumar.babar@steerlean.com");
-
-
         step.findElement("password", name, "PASSWORD").sendKeys("Babar@99");
-
         step.findElementClick("//*[@id=\"root\"]/div/div/div/div/div/div[2]/form/button", xPath);
+
 
         step.findElementClick("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li/div[1]/span[3]/span",xPath);
         Thread.sleep(5000);
         step.findElementClick("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li/div[2]/div/ul/li[2]/div",xPath);
-        Thread.sleep(20000);
+        Thread.sleep(2000);
         step.findElementClick("//*[@id=\"root\"]/main/div[2]/form/div[2]/div/div/div/button/span[2]",xPath);
 
 step.findElementClick("/html/body/div[2]/div/div[1]/div/div/div[2]/div[1]/div/button",xPath);

@@ -13,23 +13,25 @@ import static Base.BaseStep.Pather.xPath;
 public class Postnewjob {
 
     BaseStep step= new BaseStep ();
+    VeryFylLogin log=new VeryFylLogin();
+
+
     @Given("post new job")
-    public void post_the_job() throws InterruptedException {
-        step.BaseStep();
-        step.geturl();
+    public void post_the_job()  throws InterruptedException{
+
+          step.BaseStep();
+       step.geturl();
+        Thread.sleep(5000);
 
         step.findElementClick("//*[@id=\"root\"]/main/div/div/div[2]/div/button[2]/span[2]", xPath);
-
         step.findElement("workEmail", name, "2").sendKeys("nandkumar.babar@steerlean.com");
-
         step.findElement("password", name, "PASSWORD").sendKeys("Babar@99");
-
         step.findElementClick("//*[@id=\"root\"]/div/div/div/div/div/div[2]/form/button", xPath);
 
+
         step.findElementClick("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li/div[1]/span[3]/span",xPath);
-        Thread.sleep(5000);
         step.findElementClick("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li/div[2]/div/ul/li[2]/div",xPath);
-        Thread.sleep(20000);
+        Thread.sleep(2000);
         step.findElement("jobTitle", name,"title").sendKeys("Automation");
         Select MinExp = new Select(step.findElement("minYearsOfExperience", name ,"Experience"));;
         MinExp.selectByVisibleText("5");
@@ -54,8 +56,7 @@ public class Postnewjob {
 
     @Then("close the browser")
     public void close_the_browser() throws InterruptedException {
-        Thread.sleep(10000);
-        step.DriverQuit();
+       // step.DriverQuit();
 
     }
 

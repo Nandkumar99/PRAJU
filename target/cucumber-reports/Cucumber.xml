@@ -1,24 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="121.970731">
-<testcase classname="Clone job" name="Clone functionality" time="42.5717">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="119.487926">
+<testcase classname="Clone job" name="Clone functionality" time="23.46563">
 <system-out><![CDATA[Given clone job.............................................................passed
 And after clone close the browser...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="VeryFyl Login" name="VeryFyl Login Functionality" time="3.942621">
+<testcase classname="Forgot password" name="Forgot functionality" time="7.597375">
+<system-out><![CDATA[Given User should be on forgot password page................................passed
+Then User forgot the password...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Post the job" name="Post job functionality" time="5.001894">
+<failure message="java.lang.NullPointerException&#10;&#9;at Steps.Postnewjob.post_the_job(Postnewjob.java:25)&#10;&#9;at ✽.Given post new job(Post New Job.feature:3)&#10;"><![CDATA[Given post new job..........................................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at Steps.Postnewjob.post_the_job(Postnewjob.java:25)
+	at ✽.Given post new job(Post New Job.feature:3)
+]]></failure>
+</testcase>
+<testcase classname="Veryfyl Registration" name="Veryfyl Registration Functionality" time="32.16858">
+<system-out><![CDATA[When I open veryfyl registration page.......................................passed
+Then I complate veryfyl Registration........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="VeryFyl Login" name="VeryFyl Login Functionality" time="18.66498">
 <system-out><![CDATA[When I open VeryFyl Login page..............................................passed
 Then I Open VeryFyl Home page...............................................passed
 Then close browser..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Post the job" name="Post job functionality" time="44.089464">
-<system-out><![CDATA[Given post new job..........................................................passed
-Then close the browser......................................................passed
+<testcase classname="VeryFyl Login" name="Premium Employer Login" time="6.41165">
+<system-out><![CDATA[When I open premium login page..............................................passed
+Then Enter Id And Password..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Veryfyl Registration" name="Veryfyl Registration Functionality" time="31.366946">
-<system-out><![CDATA[When I open veryfyl registration page.......................................passed
-Then I complate veryfyl Registration........................................passed
+<testcase classname="VeryFyl Login" name="Jobseeker Login through Google" time="13.588436">
+<system-out><![CDATA[When I open Jobbseeker Linkedin login.......................................passed
+Then Enter Linkden userid and password......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="VeryFyl Login" name="Jobseeker Login through Linkedin" time="12.589381">
+<system-out><![CDATA[When I open Jobseeker google login..........................................passed
+Then Enter google userid and password.......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

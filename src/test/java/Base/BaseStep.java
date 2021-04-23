@@ -50,6 +50,15 @@ public class BaseStep {
 
     }
 
+    public void geturllinkedin()
+    {
+        driver.get("https://www.linkedin.com/uas/login?session_redirect=%2Foauth%2Fv2%2Flogin-success%3Fapp_id%3D8554205%26auth_type%3DAC%26flow%3D%257B%2522scope%2522%253A%2522r_liteprofile%2Br_emailaddress%2522%252C%2522creationTime%2522%253A1619177074372%252C%2522state%2522%253A%2522EAhQLxfgzlu1tke6IXco%2522%252C%2522appId%2522%253A8554205%252C%2522authorizationType%2522%253A%2522OAUTH2_AUTHORIZATION_CODE%2522%252C%2522redirectUri%2522%253A%2522https%253A%252F%252Ftestveryfyl.steerlean.com%252Flinkedin%2522%252C%2522currentStage%2522%253A%2522LOGIN_SUCCESS%2522%252C%2522currentSubStage%2522%253A0%252C%2522authFlowName%2522%253A%2522generic-permission-list%2522%257D&fromSignIn=1&trk=oauth&cancel_redirect=%2Foauth%2Fv2%2Flogin-cancel%3Fapp_id%3D8554205%26auth_type%3DAC%26flow%3D%257B%2522scope%2522%253A%2522r_liteprofile%2Br_emailaddress%2522%252C%2522creationTime%2522%253A1619177074372%252C%2522state%2522%253A%2522EAhQLxfgzlu1tke6IXco%2522%252C%2522appId%2522%253A8554205%252C%2522authorizationType%2522%253A%2522OAUTH2_AUTHORIZATION_CODE%2522%252C%2522redirectUri%2522%253A%2522https%253A%252F%252Ftestveryfyl.steerlean.com%252Flinkedin%2522%252C%2522currentStage%2522%253A%2522LOGIN_SUCCESS%2522%252C%2522currentSubStage%2522%253A0%252C%2522authFlowName%2522%253A%2522generic-permission-list%2522%257D");
+    }
+    public void geturlgoogle(){
+     driver.get("https://accounts.google.com/o/oauth2/auth/identifier?redirect_uri=storagerelay%3A%2F%2Fhttps%2Ftestveryfyl.steerlean.com%3Fid%3Dauth572249&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&client_id=972926623322-22deonbgepat13ek4hd1s5vh43v6bf8o.apps.googleusercontent.com&ss_domain=https%3A%2F%2Ftestveryfyl.steerlean.com&prompt&fetch_basic_profile=true&gsiwebsdk=2&flowName=GeneralOAuthFlow");
+
+    }
+
     public void waitElement(WebElement element, TimeOut timeOut) {
 
         try {

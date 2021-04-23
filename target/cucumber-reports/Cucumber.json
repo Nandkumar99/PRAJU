@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42571681017,
+              "duration": 23465614607,
               "status": "passed"
             },
             "line": 3,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 18881,
+              "duration": 15529,
               "status": "passed"
             },
             "line": 4,
@@ -48,56 +48,44 @@
     "elements": [
       {
         "line": 2,
-        "name": "VeryFyl Login Functionality",
+        "name": "Forgot functionality",
         "description": "",
-        "id": "veryfyl-login;veryfyl-login-functionality",
+        "id": "forgot-password;forgot-functionality",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3416541161,
+              "duration": 7417179282,
               "status": "passed"
             },
             "line": 3,
-            "name": "I open VeryFyl Login page",
+            "name": "User should be on forgot password page",
             "match": {
-              "location": "Login.i_open_very_fyl_login_page()"
+              "location": "EmployerForgotPassword.user_should_be_on_forgot_password_page()"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 455816663,
+              "duration": 180195971,
               "status": "passed"
             },
             "line": 4,
-            "name": "I Open VeryFyl Home page",
+            "name": "User forgot the password",
             "match": {
-              "location": "Login.i_open_very_fyl_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 70262743,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "close browser",
-            "match": {
-              "location": "Login.close_browser()"
+              "location": "EmployerForgotPassword.user_forgot_the_password()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "VeryFyl Login",
+    "name": "Forgot password",
     "description": "",
-    "id": "veryfyl-login",
+    "id": "forgot-password",
     "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "Employer forgot password.feature"
   },
   {
     "line": 1,
@@ -112,8 +100,9 @@
         "steps": [
           {
             "result": {
-              "duration": 33965031636,
-              "status": "passed"
+              "duration": 5001894073,
+              "error_message": "java.lang.NullPointerException\n\tat Steps.Postnewjob.post_the_job(Postnewjob.java:25)\n\tat ✽.Given post new job(Post New Job.feature:3)\n",
+              "status": "failed"
             },
             "line": 3,
             "name": "post new job",
@@ -124,8 +113,7 @@
           },
           {
             "result": {
-              "duration": 10124432815,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "close the browser",
@@ -156,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10218168827,
+              "duration": 11304713285,
               "status": "passed"
             },
             "line": 3,
@@ -168,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 21148776700,
+              "duration": 20863866458,
               "status": "passed"
             },
             "line": 4,
@@ -186,5 +174,163 @@
     "id": "veryfyl-registration",
     "keyword": "Feature",
     "uri": "Registration.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "VeryFyl Login Functionality",
+        "description": "",
+        "id": "veryfyl-login;veryfyl-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8130009333,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open VeryFyl Login page",
+            "match": {
+              "location": "VeryFylLogin.i_open_very_fyl_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10395176935,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Open VeryFyl Home page",
+            "match": {
+              "location": "VeryFylLogin.i_open_very_fyl_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139794063,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "close browser",
+            "match": {
+              "location": "VeryFylLogin.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Premium Employer Login",
+        "description": "",
+        "id": "veryfyl-login;premium-employer-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5874353062,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open premium login page",
+            "match": {
+              "location": "VeryFylLogin.i_open_premium_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 537296509,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter Id And Password",
+            "match": {
+              "location": "VeryFylLogin.enter_Id_And_Password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Jobseeker Login through Google",
+        "description": "",
+        "id": "veryfyl-login;jobseeker-login-through-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2763545409,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I open Jobbseeker Linkedin login",
+            "match": {
+              "location": "VeryFylLogin.i_open_Jobbseeker_Linkedin_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10824890477,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Linkden userid and password",
+            "match": {
+              "location": "VeryFylLogin.enter_Linkden_userid_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Jobseeker Login through Linkedin",
+        "description": "",
+        "id": "veryfyl-login;jobseeker-login-through-linkedin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4340727753,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I open Jobseeker google login",
+            "match": {
+              "location": "VeryFylLogin.i_open_Jobseeker_google_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8248652826,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter google userid and password",
+            "match": {
+              "location": "VeryFylLogin.enter_google_userid_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "VeryFyl Login",
+    "description": "",
+    "id": "veryfyl-login",
+    "keyword": "Feature",
+    "uri": "VeryFylLogin.feature"
   }
 ]
