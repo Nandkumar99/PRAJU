@@ -16,8 +16,12 @@ public class BaseStep {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+    }
+    public void login(){
+
 
     }
+
     public enum Pather {
         id,
         className,
@@ -169,7 +173,7 @@ public class BaseStep {
 
     public void PageScrolldown() {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("window.scrollBy(0,300)", "");
+        jse.executeScript("window.scrollBy(0,3000)", "");
 
     }
 

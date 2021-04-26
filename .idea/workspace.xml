@@ -5,19 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073dac76-211b-4257-a878-4b275e61984c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Employer forgot password.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerForgotPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Change time zone (Employer).feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Edit The Job Owner.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Edit the Posted job.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Employer Profile Picture Change.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/EmployerPasswordChange.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/ChangeEmployerTimezone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/EditJobOwners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/EditTheJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerPasswordChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerPictureChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Clone job.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Clone job.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Employer forgot password.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Employer forgot password.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/EmployerRegistration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CloneJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CloneJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EmployerForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerForgotPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Postnewjob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Postnewjob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$Pather.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$Pather.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$TimeOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$TimeOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CloneJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CloneJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Postnewjob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Postnewjob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/registration.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,20 +159,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554833947256" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Post job functionality">
-    <configuration name="Scenario: Clone functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Edit the owners">
+    <configuration name="Feature: Edit The Job Owner" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Clone job.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Edit The Job Owner.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="NAME_FILTER" value="^Clone functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Clone functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Clone functionality" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Edit The Job Owner" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -168,15 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Forgot functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: EditTheJobOwner" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Employer forgot password.feature" />
-      <option name="GLUE" value="Steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/EditTheJobOwner.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="NAME_FILTER" value="^Forgot functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Forgot functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Forgot functionality" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: EditTheJobOwner" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -188,15 +203,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Post job functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Edit the job owners" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Post New Job.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Edit The Job Owner.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="NAME_FILTER" value="^Post job functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Post job functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Post job functionality" />
+      <option name="NAME_FILTER" value="^Edit the job owners$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Edit the job owners$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edit the job owners" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -208,15 +223,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: VeryFyl Login Functionality (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Edit the owners" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Edit The Job Owner.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="NAME_FILTER" value="^VeryFyl Login Functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^VeryFyl Login Functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: VeryFyl Login Functionality" />
+      <option name="NAME_FILTER" value="^Edit the owners$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Edit the owners$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edit the owners" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -228,28 +243,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Remove job owner" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/EditTheJobOwner.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
+      <option name="NAME_FILTER" value="^Remove job owner$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Remove job owner$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Remove job owner" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runner.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Post job functionality" />
-        <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: Forgot functionality" />
-        <item itemvalue="Cucumber Java.Scenario: Clone functionality" />
-        <item itemvalue="Cucumber Java.Scenario: VeryFyl Login Functionality (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Edit the owners" />
+        <item itemvalue="Cucumber Java.Feature: Edit The Job Owner" />
+        <item itemvalue="Cucumber Java.Scenario: Edit the job owners" />
+        <item itemvalue="Cucumber Java.Feature: EditTheJobOwner" />
+        <item itemvalue="Cucumber Java.Scenario: Remove job owner" />
       </list>
     </recent_temporary>
   </component>

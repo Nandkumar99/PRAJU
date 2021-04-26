@@ -1,5 +1,43 @@
 Feature: Clone job
   Scenario: Clone functionality
-    Given clone job
-    And after clone close the browser
+    Given User should be on Home page
+    Then clone the job
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -24,7 +24,7 @@ public class EmployerForgotPassword {
     public void user_forgot_the_password(){
 
         step.findElement("workEmail",name,"enter link").sendKeys("nandu@99gmail.com");
-        step.DriverQuit();
+       step.DriverQuit();
 
 
 
