@@ -1,7 +1,7 @@
 Feature: VeryFyl Login
   Scenario: VeryFyl Login Functionality
     When I open Employer Standard Login page
-#    Then I Open Home page
+   Then I Open Home page
     And close browser
 
   Scenario: Premium Employer Login
@@ -9,15 +9,8 @@ Feature: VeryFyl Login
     Then I open Home page
     And close browser
 
-
-
-
-  Scenario: Jobseeker Login through Google
+  Scenario: Jobseeker Login through linkedin
     When I open Jobbseeker Linkedin login
-    Then Enter Linkden userid and password
-    And close browser
+    Then Enter linkedin id and password
 
-    Scenario: Jobseeker Login through Linkedin
-      When I open Jobseeker google login
-      Then Enter google userid and password
-      And close browser
+

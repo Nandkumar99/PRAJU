@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073dac76-211b-4257-a878-4b275e61984c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/AddUsers.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Manage Policies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/AddUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/ManagePolicies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Send intial job proposal to the jobseeker.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/SendIntialJobProposalTojobseeker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,35 +140,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554833947256" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Music/Automation" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos/Testing" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Manage Policies">
-    <configuration name="Feature: Add users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: VeryFylLogin">
+    <configuration name="Feature: VeryFylLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Add users.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Automation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Add users" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: AddUsers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/AddUsers.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: AddUsers" />
+      <option name="SUGGESTED_NAME" value="Feature: VeryFylLogin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -179,14 +162,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Manage Policies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Jobseeker Login through linkedin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Manage Policies.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Manage Policies" />
+      <option name="NAME_FILTER" value="^Jobseeker Login through linkedin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Jobseeker Login through linkedin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Jobseeker Login through linkedin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -198,15 +182,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Link feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/AddUsers.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Link.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="NAME_FILTER" value="^Add users$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Add users$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add users" />
+      <option name="NAME_FILTER" value="^Link feature$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Link feature$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Link feature" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -218,15 +202,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: add and remove users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: links feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Manage Policies.feature" />
-      <option name="GLUE" value="Steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Link.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="NAME_FILTER" value="^add and remove users$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^add and remove users$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: add and remove users" />
+      <option name="NAME_FILTER" value="^links feature$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^links feature$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: links feature" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: send intial job proposal to the jobseeker" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Send intial job proposal to the jobseeker.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Automation" />
+      <option name="NAME_FILTER" value="^send intial job proposal to the jobseeker$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^send intial job proposal to the jobseeker$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: send intial job proposal to the jobseeker" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -240,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Manage Policies" />
-        <item itemvalue="Cucumber Java.Scenario: add and remove users" />
-        <item itemvalue="Cucumber Java.Feature: AddUsers" />
-        <item itemvalue="Cucumber Java.Scenario: Add users" />
-        <item itemvalue="Cucumber Java.Feature: Add users" />
+        <item itemvalue="Cucumber Java.Feature: VeryFylLogin" />
+        <item itemvalue="Cucumber Java.Scenario: send intial job proposal to the jobseeker" />
+        <item itemvalue="Cucumber Java.Scenario: Jobseeker Login through linkedin" />
+        <item itemvalue="Cucumber Java.Scenario: Link feature" />
+        <item itemvalue="Cucumber Java.Scenario: links feature" />
       </list>
     </recent_temporary>
   </component>
