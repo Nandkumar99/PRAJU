@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073dac76-211b-4257-a878-4b275e61984c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Send intial job proposal to the jobseeker.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/SendIntialJobProposalTojobseeker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Jobseeker accept reject need more info.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/JobseekerAccepsRejectNeedMoreInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +137,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554833947256" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Videos/Testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Features" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Steps" />
+    </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Feature: VeryFylLogin">
     <configuration name="Feature: VeryFylLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
