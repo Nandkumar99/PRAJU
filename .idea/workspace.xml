@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073dac76-211b-4257-a878-4b275e61984c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Jobseeker accept reject need more info.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/JobseekerAccepsRejectNeedMoreInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Historic rounds Feedback.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HistoricFeedbacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
