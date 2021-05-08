@@ -12,7 +12,6 @@ import static Base.BaseStep.Pather.xPath;
 
 public class EditJobOwners {
     public WebDriver driver;
-
     //WebDriver driver;
     BaseStep step = new BaseStep();
     @Given("^Post new job for edit owners$")

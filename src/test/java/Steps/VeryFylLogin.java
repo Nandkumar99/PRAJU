@@ -20,7 +20,6 @@ import static Base.BaseStep.Pather.id;
 
 public class VeryFylLogin {
     public WebDriver driver;
-
     //WebDriver driver;
     BaseStep step = new BaseStep();
 

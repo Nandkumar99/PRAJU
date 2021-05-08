@@ -3,7 +3,6 @@ This project includes sample selenium project with cucumber
 
 # Getting started :ghost:
 This project requires Java 8 (at least version 1.8.0_112 or greater) (Java jdk 1.8 sürümü ve üzeri) https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-
 **Intellij**
 https://www.jetbrains.com/idea/download/#section=windows (Maven, Gradle or Eclipse to be installed.)
 

@@ -22,7 +22,6 @@ public class SchedulesRoundsAndEnterFeedback {
         step.BaseStep();
         step.geturl();
         Thread.sleep(5000);
-
         //Standard account login
         step.findElementClick("//*[@id=\"root\"]/main/div/div/div[2]/div/button[2]/span[2]", xPath);
         step.findElement("workEmail", name, "2").sendKeys("nandkumar.babar@steerlean.com");

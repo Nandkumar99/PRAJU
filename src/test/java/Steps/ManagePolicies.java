@@ -67,7 +67,6 @@ Thread.sleep(5000);
 
         browse.sendKeys("/home/nandkumar/Downloads/Jacky-Smith-Resume-Project-Manager-3.pdf");
 step.findElementClick("//button[@type='submit']",xPath);
-
     }
     @Then("^Edit policy")
     public void Edit_policy() throws InterruptedException {

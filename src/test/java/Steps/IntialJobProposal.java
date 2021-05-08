@@ -25,6 +25,7 @@ public class IntialJobProposal {
         Thread.sleep(5000);
         step.findElementClick("//*[@id=\"root\"]/main/div[2]/div[1]/div[5]/div/div[1]/div[2]/div[1]/div/div[7]/div/div[1]/button",xPath);
         Thread.sleep(7000);
+
     }
 
     @Then("send intial job invite to jobseeker")

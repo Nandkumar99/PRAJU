@@ -10,7 +10,6 @@ import static Base.BaseStep.Pather.name;
 import static Base.BaseStep.Pather.xPath;
 
 public class Postnewjob {
-
     BaseStep step= new BaseStep();
     VeryFylLogin homepage =new VeryFylLogin();
 

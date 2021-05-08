@@ -47,7 +47,6 @@ public class AddUsers {
         Thread.sleep(2000);
         step.findElement("//button[@type='submit']", xPath, "nb").click();//submit button
         step.findElementClick("/html/body/div[2]/div/div[1]/div/div/div[1]/button", xPath);
-
     }
 
     @Then("^Remove users$")

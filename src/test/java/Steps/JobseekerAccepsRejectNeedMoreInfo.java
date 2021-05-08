@@ -112,7 +112,6 @@ public class JobseekerAccepsRejectNeedMoreInfo {
 
         step.driver.switchTo().window(parentWindowId); //again switch to parent window
          Thread.sleep(10000);
-
     }
 
     @Then("jobseeker do need more info")

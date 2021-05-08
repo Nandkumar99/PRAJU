@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.Select;
 import static Base.BaseStep.Pather.name;
 import static Base.BaseStep.Pather.xPath;
 
-
 public class EditTheJob {
     BaseStep step = new BaseStep();
     public WebDriver driver;

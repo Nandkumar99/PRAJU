@@ -69,7 +69,6 @@ public class BaseStep {
             WebDriverWait wait = new WebDriverWait(driver, timeOut.value);
             wait.until(ExpectedConditions.invisibilityOf(element));
         } catch (Exception ex) {
-
         }
 
     }

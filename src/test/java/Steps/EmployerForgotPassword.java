@@ -17,7 +17,6 @@ public class EmployerForgotPassword {
         step.geturl();
         step.findElementClick("//*[@id=\"root\"]/main/div/div/div[2]/div/button[2]/span[2]", xPath);
        step.findElementClick("//*[@id=\"root\"]/div/div/div/div/div/div[2]/form/div[4]/a",xPath);
-
     }
 
     @Then("User forgot the password")

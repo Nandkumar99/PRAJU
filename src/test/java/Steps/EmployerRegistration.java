@@ -36,7 +36,6 @@ public class EmployerRegistration {
     @Then("I complate veryfyl Registration")
     public void I_complate_veryfyl_Registration() throws InterruptedException {
         step.findElement("firstName", name, "2").sendKeys("Nandkumar");
-        ;
         step.findElement("lastName", name, "b").sendKeys("Babar");
         step.findElement("organization", name, "orag").sendKeys("Steerlean");
         step.findElement("workEmail", name, "2").sendKeys("nandkumar.babar@steerlean.com");

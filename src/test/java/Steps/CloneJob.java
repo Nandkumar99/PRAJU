@@ -13,7 +13,6 @@ import static Base.BaseStep.Pather.xPath;
 public  class CloneJob{
 
     BaseStep step= new BaseStep();
-
     public WebDriver driver;
 
 

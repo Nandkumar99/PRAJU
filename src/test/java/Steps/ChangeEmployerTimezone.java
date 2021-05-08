@@ -12,7 +12,6 @@ import static Base.BaseStep.Pather.xPath;
 
 public class ChangeEmployerTimezone {
 
-
     BaseStep step = new BaseStep();
     @Given("^user should on change time zone page$")
     public void user_should_on_change_time_zone_page() throws Throwable {

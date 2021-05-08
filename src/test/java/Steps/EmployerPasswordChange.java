@@ -39,5 +39,4 @@ step.findElementClick("//*[@id=\"root\"]/main/div[2]/div[1]/div[1]/div/div/div/f
     public void close_the_change_password_page(){
 step.DriverQuit();
     }
-
 }

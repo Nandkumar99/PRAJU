@@ -7,7 +7,6 @@ import cucumber.api.java.en.Then;
 import static Base.BaseStep.Pather.name;
 import static Base.BaseStep.Pather.xPath;
 
-
 public class EmployerPictureChange {
     BaseStep step = new BaseStep();
     @Given("^user should on home page$")
