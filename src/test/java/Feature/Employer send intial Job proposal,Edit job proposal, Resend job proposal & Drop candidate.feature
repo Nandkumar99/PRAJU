@@ -1,6 +1,7 @@
-Feature: Send intial Job proposal,Edit job proposal, Resend job proposal, Drop candidate
+Feature: Send intial Job proposal to jobseeker ,Edit job proposal and resemd
+  ,Resend job proposal, Drop candidate from ongoing process
 
-  Scenario: send intial job proposal to the jobseeker
+  Scenario: send intial job invitation
     Given Employer should be on home page
     Then send intial job invite to jobseeker
 

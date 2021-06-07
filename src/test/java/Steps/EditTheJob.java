@@ -1,15 +1,13 @@
 package Steps;
 
 import Base.BaseStep;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static Base.BaseStep.Pather.name;
-import static Base.BaseStep.Pather.xPath;
 
 public class EditTheJob {
     BaseStep step = new BaseStep();
@@ -19,44 +17,19 @@ public class EditTheJob {
     public void first_post_new_job() throws InterruptedException {
         step.BaseStep();
         step.geturl();
-        Thread.sleep(5000);
-                            // Open veryfyl login page
-        step.findElementClick("//*[@id=\"root\"]/main/div/div/div[2]/div/button[2]/span[2]", xPath);
-        step.findElement("workEmail", name, "2").sendKeys("nandkumar.babar@steerlean.com");
-        step.findElement("password", name, "PASSWORD").sendKeys("Babar@99");
-        step.findElementClick("//*[@id=\"root\"]/div/div/div/div/div/div[2]/form/button", xPath);
-                           //Post new job
-        step.findElementClick("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li/div[1]/span[3]/span",xPath);
-        step.findElementClick("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li/div[2]/div/ul/li[2]/div",xPath);
-        Thread.sleep(2000);
-        step.findElement("jobTitle", name,"title").sendKeys("Automation");
-        Select MinExp = new Select(step.findElement("minYearsOfExperience", name ,"Experience"));;
-        MinExp.selectByVisibleText("5");
-
-        Select MaxExp = new Select(step.findElement("maxYearsOfExperience", name ,"Experience"));;
-        MaxExp.selectByVisibleText("10");
-
-
-        Select country = new Select(step.findElement("country", name ,"Location"));;
-        country.selectByVisibleText("India");
-
-
-        Select city = new Select(step.findElement("city", name ,"Experience"));;
-        city.selectByVisibleText("Pune");
-
-        step.findElement("noOfPositions",name,"position").sendKeys("100");
-        step.findElement("//*[@id=\"root\"]/main/div[2]/form/div[6]/div/div/div/div/div[2]/div[1]",xPath,"req").sendKeys("Steerlean.com");
-        step.findElementClick("//*[@id=\"root\"]/main/div[2]/form/div[8]/button[2]/span[2]",xPath);
-        Thread.sleep(5000);
-
+        step.EmployerLogin();
+        step.PostJob();
     }
 
     @Then("Edit the posted job")
     public void edit_the_posted_job() throws InterruptedException {
         //Edit the posted job
-        step.findElementClick("//*[@id=\"root\"]/main/div[2]/div[1]/div[5]/div/div[1]/div[2]/div[1]/div/div[7]/div/div[2]",xPath);
-        Thread.sleep(2000);
-     step.findElementClick("/html/body/div[5]/div/div[1]/div/div/div[2]/div[1]/div/div/div/div/div[1]/div/div/div[1]/div[2]/div",xPath);
+        Thread.sleep(5000);
+        WebDriverWait wait = new WebDriverWait(step.driver, BaseStep.TimeOut.CUSTOM_MAX.getValue());
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/main/div[2]/div[1]/div[5]/div/div[1]/div[2]/div[1]/div/div[7]/div/div[2]"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.name("internalJobCode"))).sendKeys("9899");
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/main/div[2]/form/div[8]/button[2]"))).click();
+       Thread.sleep(4000);
         step.DriverQuit();
     }
 
