@@ -100,6 +100,7 @@ public class OfferLetter {
         offervalidity.selectByIndex(1);
         wait.until(ExpectedConditions.elementToBeClickable(By.name("additionalDetails"))).sendKeys("Please join within 15 days");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[@type='button' and @class='noButtonBorder'])[6]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"salaryComponentDetails.0.componentName\"]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.name("salaryComponentDetails.0.annualAmount"))).sendKeys("1000");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[@title='Next'])[2]"))).click();

@@ -19,7 +19,7 @@ import static Base.BaseStep.Pather.xPath;
 public class EmployerPictureChange {
     BaseStep step = new BaseStep();
     WebDriver driver;
-    @Given("^user should on home page$")
+    @Given("user should on home page")
     public void user_should_on_home_page() throws InterruptedException {
         step.BaseStep();
         step.geturl();
@@ -33,39 +33,19 @@ public class EmployerPictureChange {
 
     }
 
-    @Then("^Change the profile picture$")
+    @Then("Change the profile picture")
     public void change_the_profile_picture() throws InterruptedException {
-step.findElementClick("//*[@id=\"Popover2\"]/img",xPath); //click on profile button
-step.findElementClick("/html/body/div[2]/div/div/div/div/ul/button[1]",xPath); //click on profile btn
+        step.findElementClick("//*[@id=\"Popover2\"]/img",xPath); //click on profile button
+        step.findElementClick("/html/body/div[2]/div/div/div/div/ul/button[1]",xPath); //click on profile btn
         Thread.sleep(2000);
-        step.findElementClick("//*[@id=\"root\"]/main/div[2]/div[1]/div[3]/div/div[1]/button",xPath); //click on change picture
+        step.findElementClick("//button[@class=\"button-with-image btn btn-secondary\"]",xPath); //click on change picture
 
-        WebDriverWait wait = new WebDriverWait(step.driver, BaseStep.TimeOut.CUSTOM_MAX.getValue());
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@class='socialLoginIcons']"))).click();
-        System.out.println("driver" + driver);
-        Set<String> handler = driver.getWindowHandles();
-        Iterator<String> it = handler.iterator();
-        System.out.println("title" + handler);
-        String parentWindowId = it.next(); //System.out.println("parent window id:"+ parentWindowId);
-        String childWindowId = it.next(); //System.out.println("Child window id:"+ childWindowId);
-        driver.switchTo().window(childWindowId);
-
-        Alert alert = driver.switchTo().alert(); // switch to alert
-        step.driver.switchTo().alert();
-
-//            driver.quit();
-        }
+//        WebDriverWait wait = new WebDriverWait(step.driver, BaseStep.TimeOut.CUSTOM_MAX.getValue());
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@class='socialLoginIcons']"))).click();
+//
+        Thread.sleep(4000);
+          step.DriverQuit();
     }
-
-
-
-
-
-
-
-
-//step.findElementClick("//*[@id=\"inner-circle\"]",xPath); //click picture
-//step.findElementClick("//*[@id=\"root\"]/main/div[2]/div[1]/div[3]/div/div[2]/" +
-//        "div/div[1]/div[2]/div/div/button/span[2]",xPath); //click on confirm preview
+}
 
 

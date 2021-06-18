@@ -5,87 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073dac76-211b-4257-a878-4b275e61984c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Accept reject need more info for intial job proposal.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Add &amp; Remove users.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Edit  job owners.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer Password Change.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer Profile Picture Change.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer Registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer histroric feedbacks.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer schedules, reschedules &amp; cancel the interviewes.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Manage Policies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/OFFER LETTER.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Schedules the interviewes and enter feedback.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/VeryFyl login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/view download update resume  Identify resubmit documents Refresh Mark All Read Expand butttons.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerScheduleRescheuleCancelInterview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/InviteResendIntialProposal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/OfferLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/SchedulesIVANDEnterFeedback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/ViewdownloadResumesandButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Add and Remove job owner.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Search and filter.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/Sign out functionality.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/AddRemoveJobOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/SignOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/searchFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/AddUsers.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Change time zone (Employer).feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Change time zone (Employer).feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Clone job.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Clone job Functionality.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Edit The Job Owner.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Edit the Posted job.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer edit the posted job.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Employer Profile Picture Change.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Employer forgot password.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer forgot password.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/EmployerPasswordChange.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/EmployerRegistration.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Historic rounds Feedback.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Jobseeker accept reject need more info.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Manage Policies.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Post New Job.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Post  new Job.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Schedules a interview and enter feedback.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Send intial Job proposal,Edit job proposal, Resend job proposal, Drop candidate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer send intial Job proposal,Edit job proposal, Resend job proposal &amp; Drop candidate.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Feature/Edit  job owners.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Feature/Employer Profile Picture Change.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Employer Profile Picture Change.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Feature/Manage Policies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/Manage Policies.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/AddUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/AddUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ChangeEmployerTimezone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ChangeEmployerTimezone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CloneJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CloneJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EditJobOwners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EditJobOwners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EditTheJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EditTheJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EmployerForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerForgotPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EmployerPasswordChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerPasswordChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EditJobOwners.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EmployerPictureChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerPictureChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/EmployerRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/EmployerRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HistoricFeedbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HistoricFeedbacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/IntialJobProposal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/JobseekerAccepsRejectNeedMoreInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/JobseekerAccepsRejectNeedMoreInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ManagePolicies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ManagePolicies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Postnewjob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Postnewjob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/SchedulesRoundsAndEnterFeedback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/VeryFylLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$Pather.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$Pather.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$TimeOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$TimeOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/OfferLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/OfferLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ViewdownloadResumesandButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ViewdownloadResumesandButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Otomasyon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Otomasyon-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/AddUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/AddUsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ChangeEmployerTimezone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/ChangeEmployerTimezone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CloneJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CloneJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/EditJobOwners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/EditTheJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/EditTheJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/EmployerForgotPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/EmployerForgotPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/EmployerPasswordChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/EmployerPasswordChange.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/EmployerPictureChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/EmployerPictureChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/EmployerRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/EmployerRegistration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/HistoricFeedbacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/HistoricFeedbacks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/IntialJobProposal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/JobseekerAccepsRejectNeedMoreInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/JobseekerAccepsRejectNeedMoreInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ManagePolicies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/ManagePolicies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Postnewjob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Postnewjob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/SchedulesRoundsAndEnterFeedback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/VeryFylLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/OfferLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/OfferLetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ViewdownloadResumesandButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/ViewdownloadResumesandButtons.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,11 +158,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554833947256" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Steps" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos/Testing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/Steps" />
+      <recent name="$PROJECT_DIR$/src/test/java/Feature" />
       <recent name="$PROJECT_DIR$/src/test/java/Features" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -227,15 +171,15 @@
       <recent name="Steps" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: VeryFyl login">
-    <configuration name="Feature: AddUsers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: Search and filter">
+    <configuration name="Feature: Employer search and filter functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/AddUsers.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/Employer search and filter functionality.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: AddUsers" />
+      <option name="SUGGESTED_NAME" value="Feature: Employer search and filter functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -247,14 +191,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Schedules a interview and enter feedback" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Manage Policies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Schedules a interview and enter feedback.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/Manage Policies.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Schedules a interview and enter feedback" />
+      <option name="SUGGESTED_NAME" value="Feature: Manage Policies" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -266,14 +210,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: VeryFyl login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Search and filter" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/VeryFyl login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/Search and filter.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: VeryFyl login" />
+      <option name="SUGGESTED_NAME" value="Feature: Search and filter" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -285,14 +229,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: VeryFylLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Sign out functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VeryFylLogin.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/Sign out functionality.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: VeryFylLogin" />
+      <option name="SUGGESTED_NAME" value="Feature: Sign out functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -304,14 +248,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: send intial job proposal to the jobseeker" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Identify and resubmit the documents" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Send intial job proposal to the jobseeker.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/view download update resume  Identify resubmit documents Refresh Mark All Read Expand butttons.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation" />
-      <option name="NAME_FILTER" value="^send intial job proposal to the jobseeker$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^send intial job proposal to the jobseeker$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: send intial job proposal to the jobseeker" />
+      <option name="NAME_FILTER" value="^Identify and resubmit the documents$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Identify and resubmit the documents$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Identify and resubmit the documents" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -325,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: VeryFyl login" />
-        <item itemvalue="Cucumber Java.Feature: AddUsers" />
-        <item itemvalue="Cucumber Java.Feature: Schedules a interview and enter feedback" />
-        <item itemvalue="Cucumber Java.Feature: VeryFylLogin" />
-        <item itemvalue="Cucumber Java.Scenario: send intial job proposal to the jobseeker" />
+        <item itemvalue="Cucumber Java.Feature: Search and filter" />
+        <item itemvalue="Cucumber Java.Feature: Manage Policies" />
+        <item itemvalue="Cucumber Java.Feature: Employer search and filter functionality" />
+        <item itemvalue="Cucumber Java.Feature: Sign out functionality" />
+        <item itemvalue="Cucumber Java.Scenario: Identify and resubmit the documents" />
       </list>
     </recent_temporary>
   </component>

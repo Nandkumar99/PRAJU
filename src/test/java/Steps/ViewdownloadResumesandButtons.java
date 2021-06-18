@@ -142,7 +142,6 @@ public class ViewdownloadResumesandButtons {
         WebDriverWait wait = new WebDriverWait(step.driver, BaseStep.TimeOut.CUSTOM_MAX.getValue());
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"Popover2\"]/img"))).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='border-light list-group-item-action list-group-item'][1]"))).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='border-light list-group-item-action list-group-item'][1]"))).click();
         Thread.sleep(2000);
         step.driver.findElement(By.xpath("//button[@class=\"reuploadDocs-button btn btn-link\"]")).click();
         Thread.sleep(2000);

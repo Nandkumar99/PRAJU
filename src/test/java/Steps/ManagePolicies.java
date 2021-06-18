@@ -26,10 +26,10 @@ public class ManagePolicies {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/div/div/div/div/div/div[2]/form/button"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li[2]/div[1]/span[3]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/main/div[1]/div[2]/div[1]/div/div[2]/nav/ul/li[2]/div[2]/div/ul/li[2]/div/span"))).click();
-              //Remove policy
+        //Remove policy
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/main/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/div/div/button[4]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div/div[1]/div/div/div[2]/div[2]/button[1]"))).click();
-         Thread.sleep(5000);
+        Thread.sleep(5000);
     }
 
 
@@ -52,8 +52,8 @@ public class ManagePolicies {
 
     @Then("Employer Add policy")
     public void flip_policies() throws InterruptedException {
-            Thread.sleep(5000);
-    // step.findElementClick("//*[@id=\"root\"]/main/div[2]/div[1]/button/span[2]",xPath);
+        Thread.sleep(5000);
+        // step.findElementClick("//*[@id=\"root\"]/main/div[2]/div[1]/button/span[2]",xPath);
         WebDriverWait wait = new WebDriverWait(step.driver, BaseStep.TimeOut.CUSTOM_MAX.getValue());
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/main/div[2]/div[1]/div[3]/button"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.name("title"))).sendKeys("policy no 99");
