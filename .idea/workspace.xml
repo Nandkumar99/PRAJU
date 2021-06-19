@@ -171,7 +171,7 @@
       <recent name="Steps" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Search and filter">
+  <component name="RunManager" selected="Cucumber Java.Feature: Manage Policies">
     <configuration name="Feature: Employer search and filter functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/Employer search and filter functionality.feature" />
@@ -270,8 +270,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Search and filter" />
         <item itemvalue="Cucumber Java.Feature: Manage Policies" />
+        <item itemvalue="Cucumber Java.Feature: Search and filter" />
         <item itemvalue="Cucumber Java.Feature: Employer search and filter functionality" />
         <item itemvalue="Cucumber Java.Feature: Sign out functionality" />
         <item itemvalue="Cucumber Java.Scenario: Identify and resubmit the documents" />
